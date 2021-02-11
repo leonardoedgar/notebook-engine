@@ -19,14 +19,14 @@ Welcome to **Notebook Engine** project! There are just a few steps to get you st
 1. Compute
     * Any computer
 2. Software packages
-    * conda >= 4.9.2 (https://docs.conda.io/en/latest/miniconda.html)
-    * chromedriver compatible with Google Chrome (https://chromedriver.chromium.org/downloads)
+    * [conda](https://docs.conda.io/en/latest/miniconda.html) >= 4.9.2
+    * [ChromeDriver](https://chromedriver.chromium.org/downloads) (compatible with Google Chrome)
 
 
 ## 3. Installing
 
 * To install all the dependencies in a conda environment
-    * Edit CHROMEDRIVER_PATH in .env to reflect the absolute path to the chrome webdriver executable
+    * Edit CHROMEDRIVER_PATH in .env to reflect the absolute path to the ChromeDriver executable (e.g. using vim)
         ```bash
         vim .env
         ```
