@@ -13,3 +13,4 @@ dependencies:
   - selenium
   - python-chromedriver-binary
   - openpyxl
+  - seaborn
