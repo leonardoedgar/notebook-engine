@@ -8,6 +8,7 @@ NTU CE9010 Machine Learning Project AY20/21
    1. [Getting started](#1-getting-started)
    2. [Prerequisites](#2-prerequisites)
    3. [Installing](#3-installing)
+   4. [Run](#4-run)
 
 
 ## 1. Getting started
@@ -34,3 +35,10 @@ Welcome to **Notebook Engine** project! There are just a few steps to get you st
     ```bash
     ./create-env.sh
     ```
+ ## 4. Run
+ 
+ * To run the full recommender system pipeline
+   ```bash
+   conda activate notebook-engine
+   jupyter notebook ce9010_group9.ipynb
+   ```
